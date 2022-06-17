@@ -1,10 +1,12 @@
 name: Update README.md
 
 on:
+  workflow_dispatch:
   push:	
-    branches: [ master ]	
+    branches: [ main ]	
     paths: 	
       - "README.md"	
+
 
 jobs:
   copyFileAndCommit:
