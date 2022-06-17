@@ -28,4 +28,4 @@ jobs:
         author_name: mousedoc
         author_email: sangyun3631@gmail.com
         message: '[Update README.md] - ${{ steps.date.outputs.date }}'
-        add: 'export/score-result.md'
+        add: 'profile/README.md'
